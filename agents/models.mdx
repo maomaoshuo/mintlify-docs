@@ -1,80 +1,80 @@
 ---
-title: "How to Choose the Right AI Model for Your Dola Agent"
-sidebarTitle: "Models"
-description: "Compare AI model categories on Dola, understand initial traffic cost coverage, and see how model choice shapes your Agent's performance and results."
+title: "如何为 Dola Agent 选择合适的 AI 模型"
+sidebarTitle: "模型"
+description: "比较 Dola 上的 AI 模型类别，理解初始流量成本覆盖机制，并了解模型选择如何影响 Agent 表现。"
 ---
 
-The AI model you choose for your Agent is one of the most consequential decisions you'll make as a creator. It determines the quality of reasoning, the tone of responses, the types of tasks your Agent can handle, and how buyers experience it from the very first message. Dola gives you the freedom to choose from leading models across major AI providers, and you can change your model selection at any time without disrupting your buyers.
+为 Agent 选择 AI 模型，是创作者最关键的决策之一。它决定推理质量、回复语气、Agent 能处理的任务类型，以及买家从第一条消息开始获得的体验。Dola 让你可以从多个主流 AI 提供商的领先模型中自由选择，并且可以随时更换模型，不会打断买家的使用。
 
-## Model Freedom on Dola
+## Dola 上的模型自由度
 
-Dola does not lock you into a single AI provider or model tier. When you create or edit an Agent, you choose the model that powers it from a curated selection of top-tier models from major providers. This means you can match the right model to your Agent's specific purpose — rather than forcing every Agent through a one-size-fits-all default.
+Dola 不会把你锁定在单一 AI 提供商或单一模型层级中。创建或编辑 Agent 时，你可以从精选的高质量模型中选择驱动 Agent 的模型。这意味着你可以让模型匹配 Agent 的具体目标，而不是让所有 Agent 都使用同一个默认选择。
 
 <Note>
-  Specific model availability may vary over time as providers release new models and retire older ones. Check the **Model** dropdown in your Agent editor for the current list of available models.
+  具体可用模型可能会随时间变化，因为模型提供商会发布新模型，也可能下线旧模型。请在 Agent 编辑器的 **Model** 下拉菜单中查看当前可用列表。
 </Note>
 
-## How to Select a Model
+## 如何选择模型
 
-You can choose or change your Agent's model at any point during creation or after publishing:
+你可以在创建 Agent 时或发布后随时选择或更换模型：
 
 <Steps>
-  <Step title="Open the Agent editor">
-    From your Creator Dashboard on [dolaio.cn](https://dolaio.cn), click on the Agent you want to configure — or click **New Agent** if you're starting fresh.
+  <Step title="打开 Agent 编辑器">
+    从 [dolaio.cn](https://dolaio.cn) 的 Creator Dashboard 中，点击你想配置的 Agent；如果是从零开始，则点击 **New Agent**。
   </Step>
-  <Step title="Navigate to the Model dropdown">
-    In the Agent editor, locate the **Model** section. Click the dropdown to see the full list of available models.
+  <Step title="进入 Model 下拉菜单">
+    在 Agent 编辑器中找到 **Model** 区域。点击下拉菜单查看完整可用模型列表。
   </Step>
-  <Step title="Select your model">
-    Choose the model that best fits your Agent's purpose. The dropdown displays key characteristics for each model to help you decide.
+  <Step title="选择模型">
+    选择最符合 Agent 目标的模型。下拉菜单会展示每个模型的关键特征，帮助你判断。
   </Step>
-  <Step title="Save your changes">
-    Click **Save** (or **Publish** if this is a new Agent). The selected model becomes active immediately for all conversations — including for existing buyers if you're updating a published Agent.
+  <Step title="保存变更">
+    点击 **Save**。如果这是新 Agent，则点击 **Publish**。所选模型会立即对所有对话生效；如果你更新的是已发布 Agent，已有买家也会立即使用新模型。
   </Step>
 </Steps>
 
-## Choosing the Right Model for Your Use Case
+## 按使用场景选择模型
 
-Different models have different strengths. Use the guidance below to match a model category to your Agent's primary purpose.
+不同模型有不同强项。你可以参考下面的类别，把模型与 Agent 的主要用途匹配起来。
 
 <CardGroup cols={1}>
-  <Card title="Conversational and Reasoning Agents" icon="comments">
-    If your Agent's primary job is to have nuanced, context-aware conversations — answering questions, advising on decisions, explaining complex topics, or providing customer support — choose a model known for strong reasoning and natural language understanding. These models handle long context windows well and maintain coherent multi-turn conversations.
+  <Card title="对话与推理型 Agent" icon="comments">
+    如果 Agent 的核心工作是进行有上下文、有判断力的对话，例如回答问题、提供决策建议、解释复杂主题或处理客户支持，请选择推理和自然语言理解能力强的模型。这类模型通常能更好处理长上下文，并保持多轮对话连贯。
 
-    **Best for:** assistants, advisors, tutors, support agents, research helpers
+    **适合：** 助手、顾问、导师、客服 Agent、研究助手
   </Card>
-  <Card title="Image Generation Agents" icon="image">
-    If your Agent needs to create, edit, or analyze visual content, choose a vision-capable or image-generation model. Some models can both understand images sent by the user and generate new images in response to prompts.
+  <Card title="图像生成型 Agent" icon="image">
+    如果 Agent 需要创建、编辑或分析视觉内容，请选择具备视觉能力或图像生成能力的模型。有些模型既能理解用户上传的图片，也能根据提示词生成新图片。
 
-    **Best for:** creative assistants, design tools, visual content generators, image editing helpers
+    **适合：** 创意助手、设计工具、视觉内容生成器、图像编辑助手
   </Card>
-  <Card title="Coding and Technical Agents" icon="code">
-    If your Agent works primarily with code — writing it, reviewing it, debugging it, or explaining it — choose a model that is fine-tuned for technical tasks. These models are trained on large codebases and understand programming languages, frameworks, and software engineering concepts with much greater precision than general-purpose models.
+  <Card title="代码与技术型 Agent" icon="code">
+    如果 Agent 主要处理代码，例如编写、审查、调试或解释代码，请选择面向技术任务优化的模型。这类模型通常在大型代码库上训练，对编程语言、框架和软件工程概念有更精确的理解。
 
-    **Best for:** coding assistants, code reviewers, debugging tools, documentation generators, DevOps helpers
+    **适合：** 编程助手、代码审查工具、调试工具、文档生成器、DevOps 助手
   </Card>
-  <Card title="Generalist Agents" icon="sparkles">
-    If your Agent handles a wide variety of tasks without a single dominant use case, a high-quality general-purpose model offers the best balance of capability across domains. These models perform well at writing, analysis, question-answering, summarization, and reasoning simultaneously.
+  <Card title="通用型 Agent" icon="sparkles">
+    如果 Agent 需要处理多种任务，并没有单一主导场景，高质量通用模型通常能在不同领域之间取得较好平衡。这类模型可以同时胜任写作、分析、问答、总结和推理。
 
-    **Best for:** all-purpose productivity assistants, multi-domain research tools, personal AI companions
+    **适合：** 通用效率助手、多领域研究工具、个人 AI 伙伴
   </Card>
 </CardGroup>
 
-## Initial Traffic Costs
+## 初始流量成本
 
-Dola covers the initial usage costs for buyers who try your Agent after purchasing. This means buyers can interact with your Agent — powered by whichever model you've chosen — without immediately incurring usage charges themselves. Here's how it works:
+Dola 会为购买后试用 Agent 的买家覆盖初始使用成本。这意味着买家可以与 Agent 互动，并使用你选择的模型，而不会立刻自己承担模型调用费用。机制如下：
 
-- **Initial trial period:** Dola absorbs the model inference costs during the buyer's first interactions with your Agent.
-- **After the trial:** Once the initial period ends, usage costs are billed based on the plan the buyer is on. Buyers are aware of this before they purchase.
+- **初始试用期：** 买家首次与 Agent 互动时，模型推理成本由 Dola 承担。
+- **试用期后：** 初始周期结束后，使用成本会根据买家所在计划计费。买家会在购买前了解这一点。
 
-This model is intentional. By removing the financial risk of trying a new Agent, Dola makes buyers more likely to engage deeply with your Agent — which means better experiences, stronger reviews, and higher long-term retention.
+这个设计是有意为之。移除尝试新 Agent 的财务风险后，买家更愿意深入体验你的产品，从而带来更好的体验、更强的评价和更高的长期留存。
 
-## Updating Your Model After Publishing
+## 发布后更新模型
 
-You are not locked into your original model choice. You can change the model powering your Agent at any time from the **Agent settings** in your Creator Dashboard.
+你不会被原始模型选择锁定。你可以随时在 Creator Dashboard 的 **Agent settings** 中更换驱动 Agent 的模型。
 
 <Note>
-  When you update the model on a published Agent, the change takes effect immediately. All existing buyers automatically begin using the updated model — you do not need to notify them or create a new listing. Their experience continues without interruption, just powered by the new model.
+  更新已发布 Agent 的模型后，变更会立即生效。所有已有买家都会自动开始使用更新后的模型，你不需要通知他们，也不需要创建新商品。买家体验会保持连续，只是底层模型换成了新的版本。
 </Note>
 
-This flexibility lets you keep your Agent competitive as new and better models become available. Top creators on Dola routinely update their Agents to take advantage of new model releases, which improves the quality of existing buyer experiences and attracts new buyers browsing the marketplace.
+这种灵活性让你的 Agent 能随着更好的模型出现而保持竞争力。Dola 上的优秀创作者会定期更新 Agent，以利用新模型发布带来的能力提升，从而改善已有买家体验，并吸引市场中的新买家。
