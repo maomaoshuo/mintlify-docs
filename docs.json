@@ -1,48 +1,49 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
-  "name": "Dola",
-  "description": "Create, sell, and deploy AI Agents instantly. Model selection, payments, and delivery — all in one place.",
+  "theme": "mint",
+  "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#ccbc8c",
-    "light": "#b79f7a",
-    "dark": "#ffffff"
+    "primary": "#BEA780",
+    "light": "#DDC99C",
+    "dark": "#9D8263"
   },
-  "favicon": "https://media.brand.dev/a19480f5-219e-4168-88cc-2407395dba68.png",
+  "favicon": "/favicon.svg",
   "logo": {
-    "light": "https://media.brand.dev/e2196fe9-d7c7-423e-ba2a-a516a093d6c6.svg",
-    "dark": "https://media.brand.dev/e2196fe9-d7c7-423e-ba2a-a516a093d6c6.svg"
-  },
-  "icons": {
-    "library": "lucide"
-  },
-  "styling": {
-    "eyebrows": "breadcrumbs"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "contextual": {
-    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "navigation": {
     "global": {
       "anchors": [
         {
-          "anchor": "Home",
-          "icon": "house",
-          "href": "/"
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
         },
         {
-          "anchor": "Marketplace",
-          "icon": "store",
-          "href": "https://www.dolaio.cn"
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
+          "icon": "slack"
         },
         {
-          "anchor": "Support",
-          "icon": "life-buoy",
-          "href": "https://www.dolaio.cn"
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
         }
       ]
     },
-    "directory": "card",
     "groups": [
       {
         "group": "Get Started",
@@ -99,16 +100,23 @@
     ]
   },
   "navbar": {
-    "links": [],
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
     "primary": {
       "type": "button",
-      "label": "Go to Dola",
-      "href": "https://www.dolaio.cn"
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/dolaio"
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
 }
