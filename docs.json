@@ -1,0 +1,114 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "Dola",
+  "description": "Create, sell, and deploy AI Agents instantly. Model selection, payments, and delivery — all in one place.",
+  "colors": {
+    "primary": "#ccbc8c",
+    "light": "#b79f7a",
+    "dark": "#ffffff"
+  },
+  "favicon": "https://media.brand.dev/a19480f5-219e-4168-88cc-2407395dba68.png",
+  "logo": {
+    "light": "https://media.brand.dev/e2196fe9-d7c7-423e-ba2a-a516a093d6c6.svg",
+    "dark": "https://media.brand.dev/e2196fe9-d7c7-423e-ba2a-a516a093d6c6.svg"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "contextual": {
+    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Home",
+          "icon": "house",
+          "href": "/"
+        },
+        {
+          "anchor": "Marketplace",
+          "icon": "store",
+          "href": "https://www.dolaio.cn"
+        },
+        {
+          "anchor": "Support",
+          "icon": "life-buoy",
+          "href": "https://www.dolaio.cn"
+        }
+      ]
+    },
+    "directory": "card",
+    "groups": [
+      {
+        "group": "Get Started",
+        "icon": "rocket",
+        "expanded": true,
+        "pages": [
+          "introduction",
+          "quickstart",
+          "core-concepts"
+        ]
+      },
+      {
+        "group": "Creating Agents",
+        "icon": "bot",
+        "expanded": true,
+        "pages": [
+          "agents/overview",
+          "agents/building",
+          "agents/models",
+          "agents/skills"
+        ]
+      },
+      {
+        "group": "Marketplace",
+        "icon": "store",
+        "expanded": true,
+        "pages": [
+          "marketplace/overview",
+          "marketplace/selling",
+          "marketplace/buying",
+          "marketplace/referrals"
+        ]
+      },
+      {
+        "group": "Payments & Billing",
+        "icon": "credit-card",
+        "expanded": true,
+        "pages": [
+          "payments/overview",
+          "payments/pricing",
+          "payments/settlements"
+        ]
+      },
+      {
+        "group": "Account & Settings",
+        "icon": "settings",
+        "expanded": true,
+        "pages": [
+          "account/setup",
+          "account/settings",
+          "account/faq"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [],
+    "primary": {
+      "type": "button",
+      "label": "Go to Dola",
+      "href": "https://www.dolaio.cn"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/dolaio"
+    }
+  }
+}

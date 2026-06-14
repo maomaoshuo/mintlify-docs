@@ -1,0 +1,74 @@
+{
+  "projectType": "saas",
+  "projectName": "Dola",
+  "projectDescription": "Dola is an all-in-one AI Agent marketplace platform that lets you create, sell, and deploy ready-to-work digital agents with built-in model selection, payments, and delivery.",
+  "theme": "luma",
+  "primaryColor": "#ccbc8c",
+  "lightColor": "#b79f7a",
+  "darkColor": "#ffffff",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "core-concepts"
+            ]
+          },
+          {
+            "group": "Creating Agents",
+            "pages": [
+              "agents/overview",
+              "agents/building",
+              "agents/models",
+              "agents/skills"
+            ]
+          },
+          {
+            "group": "Marketplace",
+            "pages": [
+              "marketplace/overview",
+              "marketplace/selling",
+              "marketplace/buying",
+              "marketplace/referrals"
+            ]
+          },
+          {
+            "group": "Payments & Billing",
+            "pages": [
+              "payments/overview",
+              "payments/pricing",
+              "payments/settlements"
+            ]
+          },
+          {
+            "group": "Account & Settings",
+            "pages": [
+              "account/setup",
+              "account/settings",
+              "account/faq"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Instant agent deployment — connect and activate immediately after purchase",
+    "Free model selection — choose from top AI models with initial traffic costs included",
+    "Built-in payment system — monetize agents, skills, configurations, and personal services",
+    "Referral & revenue sharing — viral growth through referral split commissions",
+    "End-to-end commercialization — creation, selling, delivery, and settlement in one platform"
+  ],
+  "publicApiSurface": [
+    "Agent creation and configuration",
+    "Marketplace listing and purchasing",
+    "Built-in agent payment processing",
+    "Skill and configuration sales",
+    "Referral commission system"
+  ]
+}
