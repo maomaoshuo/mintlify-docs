@@ -26,6 +26,9 @@
       "weight": 400
     }
   },
+  "icons": {
+    "library": "fontawesome"
+  },
   "contextual": {
     "options": [
       "copy",
@@ -44,12 +47,12 @@
         {
           "anchor": "文档",
           "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "icon": "book-open"
         },
         {
           "anchor": "社区",
           "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "icon": "users"
         },
         {
           "anchor": "博客",
@@ -71,7 +74,7 @@
       },
       {
         "group": "创建 Agent",
-        "icon": "bot",
+        "icon": "robot",
         "expanded": true,
         "pages": [
           "agents/overview",
@@ -103,7 +106,7 @@
       },
       {
         "group": "账号与设置",
-        "icon": "settings",
+        "icon": "gear",
         "expanded": true,
         "pages": [
           "account/setup",
