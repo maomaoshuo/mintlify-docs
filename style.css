@@ -76,6 +76,20 @@ body:has([data-product-guide-index]) #sidebar a.nav-anchor[href='/'] svg {
   background-color: rgb(var(--primary-light)/var(--tw-text-opacity,1)) !important;
 }
 
+body:has([data-product-guide-index]) #content-area {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+body:has([data-product-guide-index]) #content-side-layout {
+  display: none !important;
+}
+
+body:has([data-product-guide-index]) #content {
+  max-width: none !important;
+  width: 100% !important;
+}
+
 [data-product-guide-index] a:not(.product-guide-feature-card) {
   background-color: #fafafa !important;
 }
