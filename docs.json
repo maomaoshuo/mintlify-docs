@@ -113,6 +113,31 @@
           "account/settings",
           "account/faq"
         ]
+      },
+      {
+        "group": "旧版备份",
+        "icon": "box-archive",
+        "expanded": false,
+        "pages": [
+          "index-old",
+          "introduction-old",
+          "quickstart-old",
+          "core-concepts-old",
+          "agents/overview-old",
+          "agents/building-old",
+          "agents/models-old",
+          "agents/skills-old",
+          "marketplace/overview-old",
+          "marketplace/selling-old",
+          "marketplace/buying-old",
+          "marketplace/referrals-old",
+          "payments/overview-old",
+          "payments/pricing-old",
+          "payments/settlements-old",
+          "account/setup-old",
+          "account/settings-old",
+          "account/faq-old"
+        ]
       }
     ]
   },
