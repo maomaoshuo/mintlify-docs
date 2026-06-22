@@ -12,6 +12,20 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+  "fonts": {
+    "heading": {
+      "family": "Poppins",
+      "source": "/fonts/Poppins-700.woff2",
+      "format": "woff2",
+      "weight": 700
+    },
+    "body": {
+      "family": "Open Sans",
+      "source": "/fonts/Open_Sans-400.woff2",
+      "format": "woff2",
+      "weight": 400
+    }
+  },
   "contextual": {
     "options": [
       "copy",
