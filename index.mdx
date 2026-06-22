@@ -16,13 +16,13 @@ mode: frame
 
   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
     <Card
-      title={<span className="product-guide-feature-card-title">创建 Agent</span>}
-      icon="robot"
-      href="/agents/overview"
+      title={<span className="product-guide-feature-card-title">购买 AI Agent</span>}
+      icon="rocket"
+      href="/quickstart"
       className="product-guide-feature-card"
       size={64}
     >
-      <span className="product-guide-feature-card-description">从模型、AI 框架、Skill 到 Agent 工作流，构建开箱即用的数字员工。</span>
+      <span className="product-guide-feature-card-description">从 Dola 精选选择 Agent，完成购买，并绑定微信、飞书或网页入口。</span>
     </Card>
 
     <a
@@ -31,21 +31,21 @@ mode: frame
     >
       <Icon icon="store" color="rgb(var(--primary))" size={18} className="shrink-0" />
       <div className="flex flex-col gap-1">
-        <span className="font-serif text-base font-medium text-gray-900 dark:text-gray-50">市场</span>
+        <span className="font-serif text-base font-medium text-gray-900 dark:text-gray-50">Agent 商店</span>
         <span className="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
           开店、上架、推广一站完成，支持独立定价、代理分润和开放生态。
         </span>
       </div>
     </a>
     <a
-      href="/payments/overview"
+      href="/agents/ai-payments"
       className="rounded-2xl flex flex-col gap-4 border bg-gray-50 p-4 outline-none shadow-sm shadow-gray-950/5 transition hover:border-primary hover:shadow-md dark:bg-gray-950 dark:shadow-black/20 dark:hover:border-primary"
     >
       <Icon icon="credit-card" color="rgb(var(--primary))" size={18} className="shrink-0" />
       <div className="flex flex-col gap-1">
-        <span className="font-serif text-base font-medium text-gray-900 dark:text-gray-50">支付与结算</span>
+        <span className="font-serif text-base font-medium text-gray-900 dark:text-gray-50">AI 支付</span>
         <span className="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
-          Agent 即买即上岗，一键连接使用入口，并自动完成支付、交付和收益结算。
+          管理钱包余额、模型 Token 费用、Agent 支付记录和智能体钱包。
         </span>
       </div>
     </a>
@@ -58,14 +58,14 @@ mode: frame
 
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
       <a
-        href="/quickstart"
+        href="/agents/overview"
         className="rounded-2xl flex flex-col gap-4 border bg-gray-50 p-4 outline-none shadow-sm shadow-gray-950/5 transition hover:border-primary hover:shadow-md dark:bg-gray-950 dark:shadow-black/20 dark:hover:border-primary"
       >
-        <Icon icon="rocket" color="rgb(var(--primary))" size={18} className="shrink-0" />
+        <Icon icon="robot" color="rgb(var(--primary))" size={18} className="shrink-0" />
         <div className="flex flex-col gap-1">
-          <span className="font-serif text-base font-medium text-gray-900 dark:text-gray-50">购买 AI Agent</span>
+          <span className="font-serif text-base font-medium text-gray-900 dark:text-gray-50">使用 Agent</span>
           <span className="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
-            从 Dola 精选选择 Agent，完成购买，并绑定微信、飞书或网页入口。
+            了解购买后的 Agent 管理页面，选择微信、飞书或 Dashboard 等入口开始使用。
           </span>
         </div>
       </a>
@@ -82,30 +82,6 @@ mode: frame
         </div>
       </a>
       <a
-        href="/marketplace/selling"
-        className="rounded-2xl flex flex-col gap-4 border bg-gray-50 p-4 outline-none shadow-sm shadow-gray-950/5 transition hover:border-primary hover:shadow-md dark:bg-gray-950 dark:shadow-black/20 dark:hover:border-primary"
-      >
-        <Icon icon="tag" color="rgb(var(--primary))" size={18} className="shrink-0" />
-        <div className="flex flex-col gap-1">
-          <span className="font-serif text-base font-medium text-gray-900 dark:text-gray-50">上架 Agent</span>
-          <span className="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
-            发布 Agent，设置价格，并开始从市场获得收入。
-          </span>
-        </div>
-      </a>
-      <a
-        href="/marketplace/buying"
-        className="rounded-2xl flex flex-col gap-4 border bg-gray-50 p-4 outline-none shadow-sm shadow-gray-950/5 transition hover:border-primary hover:shadow-md dark:bg-gray-950 dark:shadow-black/20 dark:hover:border-primary"
-      >
-        <Icon icon="shopping-cart" color="rgb(var(--primary))" size={18} className="shrink-0" />
-        <div className="flex flex-col gap-1">
-          <span className="font-serif text-base font-medium text-gray-900 dark:text-gray-50">购买并激活 Agent</span>
-          <span className="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
-            购买 Agent 后立即接入你的工作流，无需等待部署。
-          </span>
-        </div>
-      </a>
-      <a
         href="/marketplace/referrals"
         className="rounded-2xl flex flex-col gap-4 border bg-gray-50 p-4 outline-none shadow-sm shadow-gray-950/5 transition hover:border-primary hover:shadow-md dark:bg-gray-950 dark:shadow-black/20 dark:hover:border-primary"
       >
@@ -113,19 +89,19 @@ mode: frame
         <div className="flex flex-col gap-1">
           <span className="font-serif text-base font-medium text-gray-900 dark:text-gray-50">通过推荐获得收益</span>
           <span className="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
-            分享推荐链接，并从你带来的每一笔销售中获得佣金。
+            分享个人商品码，并从合格购买中获得佣金。
           </span>
         </div>
       </a>
       <a
-        href="/agents/skills"
+        href="/marketplace/resellers"
         className="rounded-2xl flex flex-col gap-4 border bg-gray-50 p-4 outline-none shadow-sm shadow-gray-950/5 transition hover:border-primary hover:shadow-md dark:bg-gray-950 dark:shadow-black/20 dark:hover:border-primary"
       >
-        <Icon icon="sparkles" color="rgb(var(--primary))" size={18} className="shrink-0" />
+        <Icon icon="handshake" color="rgb(var(--primary))" size={18} className="shrink-0" />
         <div className="flex flex-col gap-1">
-          <span className="font-serif text-base font-medium text-gray-900 dark:text-gray-50">为 Agent 添加 Skill</span>
+          <span className="font-serif text-base font-medium text-gray-900 dark:text-gray-50">成为代理商</span>
           <span className="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
-            扩展 Agent 的执行能力，并把能力组合进完整 Agent 或结果型 Agent 中交付。
+            创建自己的 Agent 商店，代理优质商品，并从持续成交中获得分润。
           </span>
         </div>
       </a>

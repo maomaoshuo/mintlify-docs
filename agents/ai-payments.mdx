@@ -1,0 +1,71 @@
+---
+title: "AI 支付"
+sidebarTitle: "AI 支付"
+description: "了解 Dola AI 支付页面如何管理钱包余额、模型 Token 费用、Agent 消费和智能体钱包。"
+---
+
+Dola AI 支付是统一的 AI 消费和资金管理入口。它把购买 Agent、支付模型费用、Agent 内消费、智能体钱包和支付记录放在同一个页面里，方便你知道钱花在哪里、哪些 Agent 正在消耗额度，以及什么时候需要充值。
+
+你可以从 [shop.dolaio.cn/ai](https://shop.dolaio.cn/ai) 打开 AI 支付页面。
+
+## 页面能做什么
+
+<CardGroup cols={2}>
+  <Card title="我的钱包" icon="wallet">
+    查看可用余额、充值入口、最小可用余额和支付总数。余额可用于购买 Agent、支付模型调用费用和 Agent 内消费。
+  </Card>
+  <Card title="AI Agent 支付记录" icon="receipt">
+    查看购买智能体、用户服务和其他平台商品时产生的订单记录，便于核对购买人、商品和支付状态。
+  </Card>
+  <Card title="模型 Token 费用" icon="coins">
+    Agent 或 API 调用模型时，会自动从余额中支付模型 Token 费用。你可以在这里查看模型消费明细。
+  </Card>
+  <Card title="智能体钱包" icon="robot">
+    为 Agent 授权可用资金，让 Agent 在被允许的范围内完成购物、支付或转账等动作。
+  </Card>
+</CardGroup>
+
+## 钱包余额怎么用
+
+钱包余额是 Dola 内 AI 消费的基础资金池。它可以覆盖多个场景：
+
+- **购买 Agent** — 在 Agent 商店中购买或续费 AI Agent。
+- **支付模型调用** — Agent 使用模型时产生的 Token 费用会从余额中扣除。
+- **Agent 内消费** — 某些 Agent 在执行任务时可能需要购买商品、调用付费能力或完成支付动作。
+- **智能体授权资金** — 你可以给 Agent 设置可用资金范围，让它只在授权额度内执行支付。
+
+<Note>
+  如果你只是日常使用 Agent，通常先关注可用余额和模型 Token 消费。只有当 Agent 需要代你执行购物、支付或转账时，才需要重点配置智能体钱包。
+</Note>
+
+## 常见使用流程
+
+<Steps>
+  <Step title="打开 AI 支付页">
+    访问 [shop.dolaio.cn/ai](https://shop.dolaio.cn/ai)，进入统一的 AI 支付入口。
+  </Step>
+  <Step title="检查可用余额">
+    在 **我的钱包** 中查看当前可用余额。如果余额不足，可以通过页面中的充值入口补充。
+  </Step>
+  <Step title="查看模型消费">
+    在 **模型 Token 费用** 中查看 Agent 或 API 调用模型产生的费用，确认主要消耗来自哪些模型或任务。
+  </Step>
+  <Step title="查看 Agent 支付记录">
+    在 **AI Agent 支付记录** 中核对购买记录、商品信息和支付状态。
+  </Step>
+  <Step title="按需设置智能体钱包">
+    如果你希望 Agent 代你完成支付动作，可以为智能体配置授权资金和额度限制。
+  </Step>
+</Steps>
+
+## 什么时候需要看 AI 支付页
+
+- 购买 Agent 前，确认钱包余额是否足够。
+- Agent 使用过程中，查看模型调用费用。
+- 发现余额变化时，核对 Agent 支付记录和模型 Token 消费。
+- 给 Agent 开放购物、支付或转账能力前，设置智能体钱包。
+- 需要排查某次订单、赠礼、收益或模型消费时，查看对应明细。
+
+<Tip>
+  AI 支付页适合做资金和消费管理；日常使用 Agent，仍然可以在微信、飞书或 Dashboard 中完成。
+</Tip>

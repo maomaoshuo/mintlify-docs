@@ -42,101 +42,109 @@
     ]
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "文档",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open"
-        },
-        {
-          "anchor": "社区",
-          "href": "https://mintlify.com/community",
-          "icon": "users"
-        },
-        {
-          "anchor": "博客",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    },
-    "groups": [
+    "tabs": [
       {
-        "group": "开始使用",
-        "icon": "rocket",
-        "expanded": true,
-        "pages": [
-          "introduction",
-          "quickstart",
-          "core-concepts"
+        "tab": "当前文档",
+        "groups": [
+          {
+            "group": "开始使用",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": [
+              "introduction",
+              "quickstart",
+              "core-concepts"
+            ]
+          },
+          {
+            "group": "使用 Agent",
+            "icon": "robot",
+            "expanded": true,
+            "pages": [
+              "agents/overview",
+              "agents/membership",
+              "agents/ai-payments",
+              "agents/models"
+            ]
+          },
+          {
+            "group": "Agent 商店",
+            "icon": "store",
+            "expanded": true,
+            "pages": [
+              "marketplace/overview",
+              "marketplace/referrals",
+              "marketplace/resellers"
+            ]
+          },
+          {
+            "group": "账号与设置",
+            "icon": "gear",
+            "expanded": true,
+            "pages": [
+              "account/setup",
+              "account/settings",
+              "account/faq"
+            ]
+          }
         ]
       },
       {
-        "group": "创建 Agent",
-        "icon": "robot",
-        "expanded": true,
-        "pages": [
-          "agents/overview",
-          "agents/building",
-          "agents/models",
-          "agents/skills"
-        ]
-      },
-      {
-        "group": "市场",
-        "icon": "store",
-        "expanded": true,
-        "pages": [
-          "marketplace/overview",
-          "marketplace/selling",
-          "marketplace/buying",
-          "marketplace/referrals"
-        ]
-      },
-      {
-        "group": "支付与结算",
-        "icon": "credit-card",
-        "expanded": true,
-        "pages": [
-          "payments/overview",
-          "payments/pricing",
-          "payments/settlements"
-        ]
-      },
-      {
-        "group": "账号与设置",
-        "icon": "gear",
-        "expanded": true,
-        "pages": [
-          "account/setup",
-          "account/settings",
-          "account/faq"
-        ]
-      },
-      {
-        "group": "旧版备份",
-        "icon": "box-archive",
-        "expanded": false,
-        "pages": [
-          "index-old",
-          "introduction-old",
-          "quickstart-old",
-          "core-concepts-old",
-          "agents/overview-old",
-          "agents/building-old",
-          "agents/models-old",
-          "agents/skills-old",
-          "marketplace/overview-old",
-          "marketplace/selling-old",
-          "marketplace/buying-old",
-          "marketplace/referrals-old",
-          "payments/overview-old",
-          "payments/pricing-old",
-          "payments/settlements-old",
-          "account/setup-old",
-          "account/settings-old",
-          "account/faq-old"
+        "tab": "旧版文档",
+        "groups": [
+          {
+            "group": "开始使用",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": [
+              "old/index",
+              "old/introduction",
+              "old/quickstart",
+              "old/core-concepts"
+            ]
+          },
+          {
+            "group": "使用 Agent",
+            "icon": "robot",
+            "expanded": true,
+            "pages": [
+              "old/agents/overview",
+              "old/agents/building",
+              "old/agents/models",
+              "old/agents/skills"
+            ]
+          },
+          {
+            "group": "Agent 商店",
+            "icon": "store",
+            "expanded": true,
+            "pages": [
+              "old/marketplace/overview",
+              "old/marketplace/selling",
+              "old/marketplace/buying",
+              "old/marketplace/referrals"
+            ]
+          },
+          {
+            "group": "支付与结算",
+            "icon": "credit-card",
+            "expanded": true,
+            "pages": [
+              "old/payments/overview",
+              "old/payments/pricing",
+              "old/payments/settlements"
+            ]
+          },
+          {
+            "group": "账号与设置",
+            "icon": "gear",
+            "expanded": true,
+            "pages": [
+              "old/account/setup",
+              "old/account/settings",
+              "old/account/faq"
+            ]
+          }
         ]
       }
     ]

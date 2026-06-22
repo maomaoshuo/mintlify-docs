@@ -149,3 +149,11 @@ img.nav-logo {
   max-width: 220px;
   height: auto;
 }
+
+#navbar div:has(> .nav-tabs) {
+  display: none !important;
+}
+
+#sidebar {
+  top: calc(4rem + 0px) !important;
+}

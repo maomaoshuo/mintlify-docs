@@ -1,87 +1,99 @@
 ---
-title: "Dola Agent：工作方式与可构建内容"
-sidebarTitle: "总览"
-description: "了解 Dola Agent 如何工作、可以配置哪些内容，以及买家如何在购买后立即获得无需部署的访问体验。"
+title: "使用 Dola Agent"
+sidebarTitle: "介绍"
+description: "购买 Agent 后，可以进入 Agent 管理页面，查看状态、用量和模型，并选择合适入口开始使用。"
 ---
 
-Dola Agent 是你可以构建、配置并直接在 Dola 市场销售的 AI 数字工作者。每个 Agent 都把角色、指令、AI 模型和可选 Skill 组合成一个完整产品。买家购买后即可开始使用，无需设置、无需部署、无需等待。无论你想做客服专家、代码助手，还是创意写作伙伴，Dola 都能帮助你把 Agent 推向市场并产生收入。
+购买 Agent 后，你可以进入它的管理页面。在这里可以查看运行状态、到期时间、最近活动、免费用量、钱包余额和模型选择，也可以通过 **入口链接** 选择微信、飞书 / Lark 或 Dashboard 等入口，在用户最熟悉的场景中开始使用 Agent。
 
-## 什么是 Dola Agent？
+![Dola Agent 管理页面示例](/images/agents/manage-agent-instance.png)
 
-Dola Agent 不只是聊天机器人。它是一个已经配置好的 AI 工作者，拥有自己的身份和目标。平台上的每个 Agent 都由四个核心部分组成：
+## 选择使用入口
 
-- **Persona** — Agent 的名称、头像和公开描述。这是买家在市场中首先看到的内容。
-- **Instructions** — 系统提示词，用来定义 Agent 的行为、知识边界、回复方式和语气。
-- **Model** — 驱动 Agent 推理和回答的底层 AI 模型。
-- **Skills** — 可选的模块化能力，例如网页搜索、图像生成或 API 集成，用来扩展 Agent 在对话之外能完成的动作。
+不同入口适合不同场景。你可以先在 Dashboard 查看状态和配置，再把 Agent 绑定到微信、飞书 / Lark 等日常工具中，让 Agent 出现在用户已经熟悉的沟通和协作场景里。
 
-这些组件共同定义了一个买家购买后马上能用的 Agent。
+<CardGroup cols={2}>
+  <Card title="微信" icon="mobile-screen-button">
+    适合个人用户、客户沟通和移动端场景。扫码绑定后，用户可以直接在微信里向 Agent 发送任务。
+  </Card>
+  <Card title="飞书 / Lark" icon="comments">
+    适合团队协作、企业办公和项目流程。绑定飞书机器人后，团队可以在飞书中调用 Agent。
+  </Card>
+  <Card title="Dashboard" icon="gauge-high">
+    适合管理和监控。你可以查看 Agent 状态、入口绑定、用量、钱包余额和模型配置。
+  </Card>
+  <Card title="商品链接" icon="link">
+    适合分享和转发。通过商品链接，其他用户可以了解 Agent、购买 Agent，并进入自己的实例页。
+  </Card>
+</CardGroup>
 
-## Agent 生命周期
+## Agent 实例页里有什么
 
-每个 Dola Agent 都会经历从想法到实际使用的清晰流程：
+Agent 实例页是每个已购买 Agent 的控制中心。你可以在这里确认 Agent 是否正在运行，也可以管理不同入口的连接状态。
+
+- **运行状态** — 查看 Agent 是否在线、是否可访问。
+- **入口链接** — 绑定微信、飞书 / Lark，或进入 Dashboard。
+- **免费用量** — 查看会员套餐提供的初始使用额度和剩余额度。
+- **钱包余额** — 查看后续模型调用、购物或支付费用可用余额。
+- **模型选择** — 查看当前 Agent 使用的模型，并按权限进行切换。
+- **商品链接** — 回到商品页，查看商品说明或分享给其他人。
+
+## 绑定微信
+
+微信入口适合让 Agent 出现在用户最日常的沟通场景中。
 
 <Steps>
-  <Step title="创建">
-    你在 dolaio.cn 打开 Creator Dashboard，并新建一个 Agent。你需要为它命名，上传头像，并撰写公开描述，让买家知道它能做什么。
+  <Step title="打开 Agent 实例页">
+    在已购买的 Agent 中打开实例页，找到 **入口链接** 区域。
   </Step>
-  <Step title="配置">
-    你编写系统提示词，定义 Agent 的角色和行为；选择 AI 模型；并按需添加 Skill 来扩展能力。
+  <Step title="选择微信">
+    点击微信卡片中的 **立即绑定**。系统会打开微信管理设置弹窗。
   </Step>
-  <Step title="发布">
-    你设置价格，可以选择一次性购买或订阅；预览 Agent，测试回复效果，然后点击 **Publish** 上架到市场。
+  <Step title="扫码完成授权">
+    使用微信扫描二维码，并在手机上完成授权确认。
   </Step>
-  <Step title="销售">
-    买家在市场发现你的 Agent，阅读描述并完成购买。Dola 会自动处理支付。
-  </Step>
-  <Step title="买家立即激活">
-    买家完成购买后，Agent 会立即可用。无需部署步骤，也无需配置 API Key。它会直接开始工作。
+  <Step title="开始使用">
+    绑定完成后，你就可以在微信中向 Agent 发送任务。二维码过期后，页面会自动刷新。
   </Step>
 </Steps>
 
-## 你可以配置什么
+## 绑定飞书 / Lark
 
-Dola 允许你细致控制 Agent 的各个方面。下表总结了 Agent 编辑器中的关键设置：
+飞书 / Lark 入口适合企业团队和协作流程。它让 Agent 可以进入团队正在使用的办公工具里。
 
-| 设置 | 控制内容 |
-|---|---|
-| **Name** | Agent 在市场和买家工作区中的显示名称 |
-| **Avatar** | Agent 的视觉身份，建议使用至少 256×256 px 的正方形图片 |
-| **Description** | 买家购买前会阅读的公开简介 |
-| **System Prompt** | 控制行为、语气、知识边界和回复风格的核心指令 |
-| **Model** | 驱动 Agent 推理和回答的 AI 模型 |
-| **Skills** | 添加在基础模型之上的模块化能力 |
-| **Pricing** | 一次性购买价格或周期订阅价格 |
+<Steps>
+  <Step title="打开绑定弹窗">
+    在 Agent 实例页点击飞书 / Lark 卡片中的 **管理**。
+  </Step>
+  <Step title="选择平台">
+    在弹窗中选择 **飞书** 或 **Lark**。不同平台对应不同的企业自建应用配置。
+  </Step>
+  <Step title="创建机器人">
+    按页面提示进入一键创建页，创建成功后复制 **App ID** 和 **App Secret**。
+  </Step>
+  <Step title="填写绑定信息">
+    确认账号 ID 和 Bot 名称，填写 App ID 与 App Secret。App Secret 只会提交给实例服务器，页面不会长期保存。
+  </Step>
+  <Step title="确认绑定">
+    如果需要实例服务器同时执行 `lark-cli` 绑定，可以打开对应开关。确认后，Agent 就可以通过飞书 / Lark 入口使用。
+  </Step>
+</Steps>
 
-发布后，你仍然可以更新这些设置。模型和指令变更会立即对所有已有买家生效。
+## Dashboard 用来做什么
 
-## 买家如何体验你的 Agent
+Dashboard 不是日常对话入口，而是 Agent 的管理入口。它适合用来查看运行状态、做浏览器端管理与监控、处理恢复和续费，以及检查用量和模型。
 
-买家在市场中找到你的 Agent 后，会经历以下流程：
-
-1. 阅读公开描述，明确 Agent 能做什么。
-2. 完成购买，Dola 自动处理支付。
-3. Agent 立即出现在买家工作区中，并可直接使用。
-4. 买家开始对话，Agent 按你的指令和角色设定进行回复。
-
-买家不会接触部署、托管或模型配置。这些复杂性都被平台隐藏起来。买家拿到的是一个从第一条消息起就能工作的 AI 助手。
-
-<Note>
-  Dola 会员套餐会为 Agent 提供初始使用额度，让买家能在完全投入使用前先体验你的 Agent。这会降低购买门槛，并提升转化率。
-</Note>
+<Tip>
+  日常使用优先放在微信、飞书等熟悉入口中；状态管理、续费、模型和余额查看再回到 Dashboard。
+</Tip>
 
 ## 继续了解
 
-准备开始构建了吗？下面的页面会带你完成每一步：从编写第一个系统提示词，到选择合适模型，再到添加让 Agent 更有竞争力的 Skill。
-
-<CardGroup cols={3}>
-  <Card title="创建 Agent" icon="hammer" href="/agents/building">
-    逐步了解如何创建、配置并发布你的第一个 Dola Agent。
+<CardGroup cols={2}>
+  <Card title="购买你的第一个 AI Agent" icon="cart-shopping" href="/quickstart">
+    按实际流程完成选择、购买、进入实例页和入口绑定。
   </Card>
-  <Card title="模型" icon="microchip" href="/agents/models">
-    学习如何根据 Agent 的目标和受众选择合适的 AI 模型。
-  </Card>
-  <Card title="Skill" icon="puzzle-piece" href="/agents/skills">
-    为 Agent 添加模块化能力，让完整 Agent 或结果型 Agent 交付更明确的价值。
+  <Card title="在 Agent 商店购买" icon="bag-shopping" href="/quickstart">
+    了解如何在 Agent 商店找到合适商品，并在购买后开始使用。
   </Card>
 </CardGroup>
