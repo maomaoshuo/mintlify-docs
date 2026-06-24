@@ -74,7 +74,8 @@
             "pages": [
               "marketplace/overview",
               "marketplace/referrals",
-              "marketplace/resellers"
+              "marketplace/resellers",
+              "marketplace/reseller-guide"
             ]
           },
           {
@@ -153,13 +154,13 @@
     "links": [
       {
         "label": "支持",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:tianshuo.sun@gmail.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "控制台",
-      "href": "https://dashboard.mintlify.com"
+      "label": "进入 Dola",
+      "href": "https://dolaio.cn/"
     }
   },
   "footer": {
